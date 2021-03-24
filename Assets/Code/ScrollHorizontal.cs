@@ -20,12 +20,13 @@ public class ScrollHorizontal : MonoBehaviour
     public float MoveSpeed = 10.0f;
     public float WrapZoneLeft = -18.0f;
     public float WrapZoneRight = 56.0f;
-
+    //56
     // Update is called once per frame
     void Update()
     {
         // Store current position
         Vector3 position = transform.position;
+        
 
         // Left --> Right, Reset
         if(FlipDirection)
@@ -40,7 +41,8 @@ public class ScrollHorizontal : MonoBehaviour
         {
             if (transform.position.x <= WrapZoneLeft)
             {
-                position.x = WrapZoneRight;
+                position.x = WrapZoneRight+Random.Range(1.5f, 10);
+                position.y = 0 + Random.Range(-3, 10);
             }
         }
 
