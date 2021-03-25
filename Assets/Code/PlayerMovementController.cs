@@ -23,6 +23,9 @@ public class PlayerMovementController : MonoBehaviour
     public int MaxNumberOfJumps = 2;
     public KeyCode JumpKey = KeyCode.Space;
     public KeyCode SlideKey = KeyCode.LeftShift;
+
+    [Tooltip("what y value should the player die at?")]
+    public float KillPlane = -20;
     
     private int jumpsRemaining = 0;
     private int currentHealth = 0;
@@ -60,7 +63,10 @@ public class PlayerMovementController : MonoBehaviour
     void Update()
     {
         bool grounded = IsGrounded();
-
+        if(transform.position.y <= KillPlane)
+        {
+            UnityEngine.SceneManagement.SceneManager.LoadScene("ScoreScreen");
+        }
         // Jumping
         if (Input.GetKeyDown(JumpKey))
         {
