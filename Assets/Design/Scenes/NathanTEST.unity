@@ -706,10 +706,21 @@ PrefabInstance:
       propertyPath: m_PlayOnAwake
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5702680125714932156, guid: 44a2f1fd3e785c143ba8383e2edee21b,
+        type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 24300002, guid: f8efc906b87947a44a8c4172786416b8,
+        type: 2}
     - target: {fileID: 5702680126517417176, guid: 44a2f1fd3e785c143ba8383e2edee21b,
         type: 3}
       propertyPath: MaxHealth
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5702680126517417176, guid: 44a2f1fd3e785c143ba8383e2edee21b,
+        type: 3}
+      propertyPath: JumpHeight
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5702680126517417177, guid: 44a2f1fd3e785c143ba8383e2edee21b,
         type: 3}
@@ -795,7 +806,17 @@ PrefabInstance:
     - target: {fileID: 5702680126517417191, guid: 44a2f1fd3e785c143ba8383e2edee21b,
         type: 3}
       propertyPath: m_GravityScale
-      value: 1.5
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5702680126517417191, guid: 44a2f1fd3e785c143ba8383e2edee21b,
+        type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5702680126517417191, guid: 44a2f1fd3e785c143ba8383e2edee21b,
+        type: 3}
+      propertyPath: m_AngularDrag
+      value: 0.05
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 44a2f1fd3e785c143ba8383e2edee21b, type: 3}
