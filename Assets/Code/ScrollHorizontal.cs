@@ -59,12 +59,14 @@ public class ScrollHorizontal : MonoBehaviour
 
                 //position.y = 0 + randomBumpY;
 
-                randomBumpX = secondPlatform.transform.position.x + Random.RandomRange(3, 10);
+                randomBumpX = secondPlatform.transform.position.x + Random.Range(3, 15);
                 /*if(randomBumpX <= secondBumpX)
                 {
                     randomBumpX = Random.Range(3, 10);
                 }*/
-                Random.seed = System.DateTime.Now.Second;
+
+
+                Random.InitState(System.DateTime.Now.Second);
 
             }
         }
