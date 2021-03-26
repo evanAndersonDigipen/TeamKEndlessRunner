@@ -20,10 +20,23 @@ public class ScrollHorizontal : MonoBehaviour
     public float MoveSpeed = 10.0f;
     public float WrapZoneLeft = -18.0f;
     public float WrapZoneRight = 56.0f;
+    
+    public float randomBumpX = 0;
+    public float randomBumpY = 0;
+
+    public GameObject secondPlatform;
+    public float secondBumpX;
+    public float secondBumpY;
     //56
+
+    private void Start()
+    {
+        secondBumpX = secondPlatform.GetComponent<ScrollHorizontal>().randomBumpX;
+    }
     // Update is called once per frame
     void Update()
     {
+        secondBumpX = secondPlatform.GetComponent<ScrollHorizontal>().randomBumpX;
         // Store current position
         Vector3 position = transform.position;
         
@@ -41,8 +54,18 @@ public class ScrollHorizontal : MonoBehaviour
         {
             if (transform.position.x <= WrapZoneLeft)
             {
-                position.x = WrapZoneRight+Random.Range(1.5f, 10);
-                position.y = 0 + Random.Range(-3, 10);
+                position.x = secondPlatform.transform.position.x+37.5f+ Random.Range(3.0f, 10.0f); //WrapZoneRight +randomBumpX;
+                position.y = secondPlatform.transform.position.y + Random.Range(-10, 10.0f);
+
+                //position.y = 0 + randomBumpY;
+
+                randomBumpX = secondPlatform.transform.position.x + Random.RandomRange(3, 10);
+                /*if(randomBumpX <= secondBumpX)
+                {
+                    randomBumpX = Random.Range(3, 10);
+                }*/
+                Random.seed = System.DateTime.Now.Second;
+
             }
         }
 
@@ -58,5 +81,9 @@ public class ScrollHorizontal : MonoBehaviour
 
         // Set new position
         transform.position = position;
+    }
+    private void OnCollisionEnter(Collision collision)
+    {
+        
     }
 }
