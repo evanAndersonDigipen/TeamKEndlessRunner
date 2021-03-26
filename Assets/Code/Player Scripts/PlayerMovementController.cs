@@ -63,6 +63,11 @@ public class PlayerMovementController : MonoBehaviour
     void Update()
     {
         bool grounded = IsGrounded();
+        if (grounded)
+        {
+            KillPlane = transform.position.x - 20;
+        }
+
         if(transform.position.y <= KillPlane)
         {
             UnityEngine.SceneManagement.SceneManager.LoadScene("ScoreScreen");
