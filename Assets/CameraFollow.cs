@@ -16,7 +16,7 @@ public class CameraFollow : MonoBehaviour
     void FixedUpdate()
     {
         Vector3 position = transform.position;
-        position = Vector3.Lerp(position, new Vector3(position.x, Player.transform.position.y + 5 , -10), lerpSpeed);
+        position = Vector3.Lerp(position, new Vector3(position.x, Player.transform.position.y , -10), lerpSpeed);
         transform.position = position;
     }
 }
