@@ -55,7 +55,7 @@ public class ScrollHorizontal : MonoBehaviour
             if (transform.position.x <= WrapZoneLeft)
             {
                 position.x = secondPlatform.transform.position.x+37.5f+ Random.Range(3.0f, 10.0f); //WrapZoneRight +randomBumpX;
-                position.y = secondPlatform.transform.position.y + Random.Range(-10, 10.0f);
+                position.y = secondPlatform.transform.position.y + Random.Range(-10, 7f);
 
                
 
