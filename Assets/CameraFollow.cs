@@ -19,4 +19,9 @@ public class CameraFollow : MonoBehaviour
         position = Vector3.Lerp(position, new Vector3(position.x, Player.transform.position.y , -10), lerpSpeed);
         transform.position = position;
     }
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.green;
+        Gizmos.DrawCube(new Vector3(transform.position.x, transform.position.y - Camera.main.orthographicSize), new Vector3(1, 1));
+    }
 }

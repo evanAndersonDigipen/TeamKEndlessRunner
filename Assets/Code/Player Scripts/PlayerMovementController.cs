@@ -65,7 +65,7 @@ public class PlayerMovementController : MonoBehaviour
         bool grounded = IsGrounded();
         if (grounded)
         {
-            KillPlane = transform.position.x - 20;
+            KillPlane = transform.position.y - 20;
         }
 
         if(transform.position.y <= KillPlane)
