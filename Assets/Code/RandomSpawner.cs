@@ -20,6 +20,9 @@ public class RandomSpawner : MonoBehaviour
     public Vector2 SpawnInterval = new Vector2(0, 1);
     // Whether to align object spawn positions to grid
     public bool AlignSpawnPosition = false;
+    public GameObject Player;
+
+
 
     // Object prefabs and spawn chances
     public GameObject Object1Prefab = null;
@@ -44,6 +47,8 @@ public class RandomSpawner : MonoBehaviour
     {
         totalChance = Object1SpawnChance + Object2SpawnChance + Object3SpawnChance
             + Object4SpawnChance + Object5SpawnChance + Object6SpawnChance;
+
+        Player = GameObject.Find("Player");
     }
 
     // Update is called once per frame
@@ -64,8 +69,16 @@ public class RandomSpawner : MonoBehaviour
         int dieRoll = Random.Range(1, totalChance + 1);
 
         // Determine spawn position
-        Vector3 spawnPosition = transform.position 
-            + new Vector3(0, Random.Range(0, transform.localScale.y), 0);
+        Vector3 spawnPosition = transform.position;
+        //+ new Vector3(0, Random.Range(0, transform.localScale.y), 0);
+
+        spawnPosition.y = Player.transform.position.y
+            + Random.Range(0, transform.localScale.y);
+        var collider = Physics2D.OverlapBox(spawnPosition, new Vector2(1,1), 0);
+        if(collider != null)
+        {
+            return;
+        }
 
         GameObject spawnedObject = null;
 
