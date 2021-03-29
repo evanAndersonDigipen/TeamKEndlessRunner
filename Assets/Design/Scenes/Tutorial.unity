@@ -236,11 +236,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 222759855}
   m_LocalRotation: {x: -0, y: -0, z: -0.9567678, w: -0.29085281}
-  m_LocalPosition: {x: -447.36, y: -317.21, z: 0}
-  m_LocalScale: {x: 0.7, y: 0.7, z: 1}
+  m_LocalPosition: {x: 25.640015, y: 2.7900085, z: 0}
+  m_LocalScale: {x: 0.6999999, y: 0.6999999, z: 1}
   m_Children: []
-  m_Father: {fileID: 1154552298}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -213.818}
 --- !u!212 &222759857
 SpriteRenderer:
@@ -317,11 +317,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 311838622}
   m_LocalRotation: {x: -0, y: -0, z: -0.28578585, w: 0.9582935}
-  m_LocalPosition: {x: -89.45001, y: -297.68, z: 0}
-  m_LocalScale: {x: 0.7, y: 0.7, z: 1}
+  m_LocalPosition: {x: 10.75, y: 6.720001, z: 0}
+  m_LocalScale: {x: 0.6999999, y: 0.6999999, z: 1}
   m_Children: []
-  m_Father: {fileID: 1070659030}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -33.212}
 --- !u!212 &311838624
 SpriteRenderer:
@@ -452,7 +452,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8284546310493225511, guid: 0cbfc8ab62411fd4c99ce576cb681118, type: 3}
+    - {fileID: 1058519915616819888, guid: 0cbfc8ab62411fd4c99ce576cb681118, type: 3}
+    - {fileID: 5832176597951909059, guid: 0cbfc8ab62411fd4c99ce576cb681118, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 0cbfc8ab62411fd4c99ce576cb681118, type: 3}
 --- !u!1 &519420028
 GameObject:
@@ -562,11 +565,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 824385688}
   m_LocalRotation: {x: -0, y: -0, z: -0.9567678, w: -0.29085281}
-  m_LocalPosition: {x: -774.72, y: -364.84, z: 0}
-  m_LocalScale: {x: 0.7, y: 0.7, z: 1}
+  m_LocalPosition: {x: 38.180023, y: 5.0599976, z: 0}
+  m_LocalScale: {x: 0.6999999, y: 0.6999999, z: 1}
   m_Children: []
-  m_Father: {fileID: 1649120993}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -213.818}
 --- !u!212 &824385690
 SpriteRenderer:
@@ -751,7 +754,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8284546310493225511, guid: 0cbfc8ab62411fd4c99ce576cb681118, type: 3}
+    - {fileID: 1058519915616819888, guid: 0cbfc8ab62411fd4c99ce576cb681118, type: 3}
+    - {fileID: 5832176597951909059, guid: 0cbfc8ab62411fd4c99ce576cb681118, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 0cbfc8ab62411fd4c99ce576cb681118, type: 3}
 --- !u!1 &1070659029
 GameObject:
@@ -781,8 +787,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 311838623}
+  m_Children: []
   m_Father: {fileID: 1614719385}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -996,8 +1001,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 222759856}
+  m_Children: []
   m_Father: {fileID: 1614719385}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1233,8 +1237,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 824385689}
+  m_Children: []
   m_Father: {fileID: 1614719385}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1456,7 +1459,7 @@ PrefabInstance:
     - target: {fileID: 5702680126517417177, guid: 44a2f1fd3e785c143ba8383e2edee21b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.13
+      value: -0.43
       objectReference: {fileID: 0}
     - target: {fileID: 5702680126517417177, guid: 44a2f1fd3e785c143ba8383e2edee21b,
         type: 3}
