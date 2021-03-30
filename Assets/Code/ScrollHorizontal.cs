@@ -37,6 +37,16 @@ public class ScrollHorizontal : MonoBehaviour
     void Update()
     {
         secondBumpX = secondPlatform.GetComponent<ScrollHorizontal>().randomBumpX;
+
+        if(transform.position.y < secondPlatform.transform.position.y)
+        {
+            VParallax.nextPanel = this.gameObject;
+        }
+        else if(transform.position.y == secondPlatform.transform.position.y)
+        {
+            VParallax.nextPanel = this.gameObject;
+        }
+
         // Store current position
         Vector3 position = transform.position;
         
