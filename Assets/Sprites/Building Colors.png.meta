@@ -1,0 +1,2564 @@
+fileFormatVersion: 2
+guid: ab98bc9215807164ea07bc6208799674
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2161577251552087238
+    second: Building Colors_0
+  - first:
+      213: -6080728399738784089
+    second: Building Colors_1
+  - first:
+      213: -7329126406382535723
+    second: Building Colors_2
+  - first:
+      213: 9055572909784638894
+    second: Building Colors_3
+  - first:
+      213: 1265925300570133867
+    second: Building Colors_4
+  - first:
+      213: 2778142569373539726
+    second: Building Colors_5
+  - first:
+      213: 7890586321660025664
+    second: Building Colors_6
+  - first:
+      213: 5066667339257875210
+    second: Building Colors_7
+  - first:
+      213: -3939266609234951081
+    second: Building Colors_8
+  - first:
+      213: 267696965339685290
+    second: Building Colors_9
+  - first:
+      213: 4242613598871403019
+    second: Building Colors_10
+  - first:
+      213: -4602988913158927169
+    second: Building Colors_11
+  - first:
+      213: -294170547243353044
+    second: Building Colors_12
+  - first:
+      213: -123053612255651488
+    second: Building Colors_13
+  - first:
+      213: -3773541120390623180
+    second: Building Colors_14
+  - first:
+      213: 8769251431000216610
+    second: Building Colors_15
+  - first:
+      213: 6999577248617195637
+    second: Building Colors_16
+  - first:
+      213: -8849470968033952406
+    second: Building Colors_17
+  - first:
+      213: 5131134950308707160
+    second: Building Colors_18
+  - first:
+      213: 4942514825717406579
+    second: Building Colors_19
+  - first:
+      213: 6231348370007387811
+    second: Building Colors_20
+  - first:
+      213: -3829113417760197403
+    second: Building Colors_21
+  - first:
+      213: 1110231137681423316
+    second: Building Colors_22
+  - first:
+      213: 6133358041639550684
+    second: Building Colors_23
+  - first:
+      213: 3396197801018441828
+    second: Building Colors_24
+  - first:
+      213: 1718210237340046786
+    second: Building Colors_25
+  - first:
+      213: -4581722761196753913
+    second: Building Colors_26
+  - first:
+      213: -4199115253189703805
+    second: Building Colors_27
+  - first:
+      213: 7188428233057522025
+    second: Building Colors_28
+  - first:
+      213: 5215454288498351866
+    second: Building Colors_29
+  - first:
+      213: -1031252800594223196
+    second: Building Colors_30
+  - first:
+      213: 3932915419418250912
+    second: Building Colors_31
+  - first:
+      213: -1533010841397095399
+    second: Building Colors_32
+  - first:
+      213: 5789361651655717266
+    second: Building Colors_33
+  - first:
+      213: -6259079960968595046
+    second: Building Colors_34
+  - first:
+      213: 6596631173226295445
+    second: Building Colors_35
+  - first:
+      213: 289771281841425851
+    second: Building Colors_36
+  - first:
+      213: 4667428423927626914
+    second: Building Colors_37
+  - first:
+      213: 6332900620026207176
+    second: Building Colors_38
+  - first:
+      213: 2172829973462600566
+    second: Building Colors_39
+  - first:
+      213: 4570617287049548063
+    second: Building Colors_40
+  - first:
+      213: 2196803535629659320
+    second: Building Colors_41
+  - first:
+      213: -5990582420370577437
+    second: Building Colors_42
+  - first:
+      213: -2934938761657828720
+    second: Building Colors_43
+  - first:
+      213: -3418719713836444539
+    second: Building Colors_44
+  - first:
+      213: 2817484773192238589
+    second: Building Colors_45
+  - first:
+      213: -4912639416629900676
+    second: Building Colors_46
+  - first:
+      213: -3045957855738687301
+    second: Building Colors_47
+  - first:
+      213: 2559278135441994087
+    second: Building Colors_48
+  - first:
+      213: -4070960840330938045
+    second: Building Colors_49
+  - first:
+      213: -5946685345602658150
+    second: Building Colors_50
+  - first:
+      213: -4083301032512935759
+    second: Building Colors_51
+  - first:
+      213: -8777969499524226899
+    second: Building Colors_52
+  - first:
+      213: 100411594960132780
+    second: Building Colors_53
+  - first:
+      213: -4567353129284307449
+    second: Building Colors_54
+  - first:
+      213: -960033551661924600
+    second: Building Colors_55
+  - first:
+      213: 4075443215509453922
+    second: Building Colors_56
+  - first:
+      213: -6827289540793707957
+    second: Building Colors_57
+  - first:
+      213: -4642114455701664581
+    second: Building Colors_58
+  - first:
+      213: 6819633136436215659
+    second: Building Colors_59
+  - first:
+      213: 3186888142125599431
+    second: Building Colors_60
+  - first:
+      213: 6661597455287329775
+    second: Building Colors_61
+  - first:
+      213: -2486798101886164580
+    second: Building Colors_62
+  - first:
+      213: -1357157414898220300
+    second: Building Colors_63
+  - first:
+      213: -7146741083038636887
+    second: Building Colors_64
+  - first:
+      213: 6308365250647850242
+    second: Building Colors_65
+  - first:
+      213: 975297662506083754
+    second: Building Colors_66
+  - first:
+      213: -6322378996422925466
+    second: Building Colors_67
+  - first:
+      213: -7844464468598303003
+    second: Building Colors_68
+  - first:
+      213: -5123709214081389044
+    second: Building Colors_69
+  - first:
+      213: 2492413602483561752
+    second: Building Colors_70
+  - first:
+      213: 4027547093685425462
+    second: Building Colors_71
+  - first:
+      213: -598159850683132302
+    second: Building Colors_72
+  - first:
+      213: 3968828527285599647
+    second: Building Colors_73
+  - first:
+      213: -1050147082041853581
+    second: Building Colors_74
+  - first:
+      213: -53215741341793398
+    second: Building Colors_75
+  - first:
+      213: -1903793434741217026
+    second: Building Colors_76
+  - first:
+      213: 5086687221713006361
+    second: Building Colors_77
+  - first:
+      213: 7814202341736608337
+    second: Building Colors_78
+  - first:
+      213: -7118570534586039096
+    second: Building Colors_79
+  - first:
+      213: 3178573731893010989
+    second: Building Colors_80
+  - first:
+      213: 8963202469763963370
+    second: Building Colors_81
+  - first:
+      213: 5837760394360833560
+    second: Building Colors_82
+  - first:
+      213: -6979880761704853948
+    second: Building Colors_83
+  - first:
+      213: -4519428538620914935
+    second: Building Colors_84
+  - first:
+      213: -1304365493445957219
+    second: Building Colors_85
+  - first:
+      213: 1297588253116672537
+    second: Building Colors_86
+  - first:
+      213: -1728588814787498622
+    second: Building Colors_87
+  - first:
+      213: 3664557536444526459
+    second: Building Colors_88
+  - first:
+      213: -7287660106634088420
+    second: Building Colors_89
+  - first:
+      213: -6907567476132194702
+    second: Building Colors_90
+  - first:
+      213: -69218081247123785
+    second: Building Colors_91
+  - first:
+      213: -8713307829692623765
+    second: Building Colors_92
+  - first:
+      213: -6976085012289673631
+    second: Building Colors_93
+  - first:
+      213: 6489484373229091068
+    second: Building Colors_94
+  - first:
+      213: -224967507933411331
+    second: Building Colors_95
+  - first:
+      213: 2369960896424388351
+    second: Building Colors_96
+  - first:
+      213: 6855263284193304365
+    second: Building Colors_97
+  - first:
+      213: -1291200665070164710
+    second: Building Colors_98
+  - first:
+      213: -1300927149978696858
+    second: Building Colors_99
+  - first:
+      213: 998347689094190196
+    second: Building Colors_100
+  - first:
+      213: 3766298675625365995
+    second: Building Colors_101
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Building Colors_0
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 4302
+        width: 348
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ccc359ce077ffd10800000000000000
+      internalID: 2161577251552087238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_1
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 4293
+        width: 338
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6b0fdccb9ec9ba0800000000000000
+      internalID: -6080728399738784089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_2
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 4235
+        width: 376
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db32a16d56b94a90800000000000000
+      internalID: -7329126406382535723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_3
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 3949
+        width: 343
+        height: 687
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea52d5d359bdbad70800000000000000
+      internalID: 9055572909784638894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_4
+      rect:
+        serializedVersion: 2
+        x: 2082
+        y: 3949
+        width: 390
+        height: 710
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6599ac8a58719110800000000000000
+      internalID: 1265925300570133867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_5
+      rect:
+        serializedVersion: 2
+        x: 2840
+        y: 4226
+        width: 348
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d96e692f1fd8620800000000000000
+      internalID: 2778142569373539726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_6
+      rect:
+        serializedVersion: 2
+        x: 3324
+        y: 4216
+        width: 340
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b1a14147ef08d60800000000000000
+      internalID: 7890586321660025664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_7
+      rect:
+        serializedVersion: 2
+        x: 3774
+        y: 4154
+        width: 372
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b0a87c91b605640800000000000000
+      internalID: 5066667339257875210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_8
+      rect:
+        serializedVersion: 2
+        x: 4242
+        y: 3873
+        width: 343
+        height: 686
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7544ef8d3e9e459c0800000000000000
+      internalID: -3939266609234951081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_9
+      rect:
+        serializedVersion: 2
+        x: 4604
+        y: 3868
+        width: 391
+        height: 710
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa1a58eb8fc07b300800000000000000
+      internalID: 267696965339685290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_10
+      rect:
+        serializedVersion: 2
+        x: 5410
+        y: 4226
+        width: 348
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ab8fff69ac0ea30800000000000000
+      internalID: 4242613598871403019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_11
+      rect:
+        serializedVersion: 2
+        x: 5892
+        y: 4216
+        width: 338
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbcc91e98f5ee10c0800000000000000
+      internalID: -4602988913158927169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_12
+      rect:
+        serializedVersion: 2
+        x: 6345
+        y: 4154
+        width: 371
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c7d242275eaebf0800000000000000
+      internalID: -294170547243353044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_13
+      rect:
+        serializedVersion: 2
+        x: 6807
+        y: 3873
+        width: 348
+        height: 686
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0695c214463da4ef0800000000000000
+      internalID: -123053612255651488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_14
+      rect:
+        serializedVersion: 2
+        x: 7174
+        y: 3868
+        width: 391
+        height: 710
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43099c51850b1abc0800000000000000
+      internalID: -3773541120390623180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_15
+      rect:
+        serializedVersion: 2
+        x: 7885
+        y: 3697
+        width: 353
+        height: 867
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2249ada07b3a2b970800000000000000
+      internalID: 8769251431000216610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_16
+      rect:
+        serializedVersion: 2
+        x: 8462
+        y: 3697
+        width: 419
+        height: 1026
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 578ebb91c6e732160800000000000000
+      internalID: 6999577248617195637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_17
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 3821
+        width: 415
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d34348a0d503580800000000000000
+      internalID: -8849470968033952406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_18
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 3782
+        width: 348
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85bfdb72d04753740800000000000000
+      internalID: 5131134950308707160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_19
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 3782
+        width: 400
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37bdcf32c07579440800000000000000
+      internalID: 4942514825717406579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_20
+      rect:
+        serializedVersion: 2
+        x: 1757
+        y: 3501
+        width: 386
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aeeff1d3523a7650800000000000000
+      internalID: 6231348370007387811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_21
+      rect:
+        serializedVersion: 2
+        x: 2196
+        y: 3492
+        width: 300
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e4b8b152a14cdac0800000000000000
+      internalID: -3829113417760197403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_22
+      rect:
+        serializedVersion: 2
+        x: 2835
+        y: 3744
+        width: 415
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db34146655586f00800000000000000
+      internalID: 1110231137681423316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_23
+      rect:
+        serializedVersion: 2
+        x: 3331
+        y: 3701
+        width: 348
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdef53894a01e1550800000000000000
+      internalID: 6133358041639550684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_24
+      rect:
+        serializedVersion: 2
+        x: 3779
+        y: 3704
+        width: 401
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 460caacf7e7b12f20800000000000000
+      internalID: 3396197801018441828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_25
+      rect:
+        serializedVersion: 2
+        x: 4280
+        y: 3425
+        width: 381
+        height: 419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c5d71e7b1f48d710800000000000000
+      internalID: 1718210237340046786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_26
+      rect:
+        serializedVersion: 2
+        x: 4719
+        y: 3415
+        width: 300
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70cab877c637a60c0800000000000000
+      internalID: -4581722761196753913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_27
+      rect:
+        serializedVersion: 2
+        x: 5401
+        y: 3744
+        width: 414
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38704b2dceeb9b5c0800000000000000
+      internalID: -4199115253189703805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_28
+      rect:
+        serializedVersion: 2
+        x: 5896
+        y: 3701
+        width: 353
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96158cc546d62c360800000000000000
+      internalID: 7188428233057522025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_29
+      rect:
+        serializedVersion: 2
+        x: 6345
+        y: 3704
+        width: 405
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe5b30fa04016840800000000000000
+      internalID: 5215454288498351866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_30
+      rect:
+        serializedVersion: 2
+        x: 6845
+        y: 3425
+        width: 386
+        height: 419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af54faaa0140b1f0800000000000000
+      internalID: -1031252800594223196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_31
+      rect:
+        serializedVersion: 2
+        x: 7289
+        y: 3415
+        width: 300
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aec41a8cb5849630800000000000000
+      internalID: 3932915419418250912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_32
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 3318
+        width: 377
+        height: 393
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91414b113c6a9bae0800000000000000
+      internalID: -1533010841397095399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_33
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 3301
+        width: 396
+        height: 391
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2913533bfb1f75050800000000000000
+      internalID: 5789361651655717266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_34
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 3511
+        width: 477
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9973b100f74329a0800000000000000
+      internalID: -6259079960968595046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_35
+      rect:
+        serializedVersion: 2
+        x: 2840
+        y: 3239
+        width: 376
+        height: 391
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 590fb620a11fb8b50800000000000000
+      internalID: 6596631173226295445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_36
+      rect:
+        serializedVersion: 2
+        x: 3293
+        y: 3225
+        width: 395
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd84401279750400800000000000000
+      internalID: 289771281841425851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_37
+      rect:
+        serializedVersion: 2
+        x: 3774
+        y: 3430
+        width: 477
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac74c62c6906c040800000000000000
+      internalID: 4667428423927626914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_38
+      rect:
+        serializedVersion: 2
+        x: 5410
+        y: 3239
+        width: 372
+        height: 391
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb538e8f8bf2e750800000000000000
+      internalID: 6332900620026207176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_39
+      rect:
+        serializedVersion: 2
+        x: 5863
+        y: 3225
+        width: 396
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b4f854951772e10800000000000000
+      internalID: 2172829973462600566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_40
+      rect:
+        serializedVersion: 2
+        x: 6345
+        y: 3430
+        width: 476
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1119d6d4381e6f30800000000000000
+      internalID: 4570617287049548063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_41
+      rect:
+        serializedVersion: 2
+        x: 8533
+        y: 3025
+        width: 401
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc278e2d2d9c7e10800000000000000
+      internalID: 2196803535629659320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_42
+      rect:
+        serializedVersion: 2
+        x: 8972
+        y: 3025
+        width: 353
+        height: 728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e7ac14370d2ddca0800000000000000
+      internalID: -5990582420370577437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_43
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 2881
+        width: 1006
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a3cd90fb00547d0800000000000000
+      internalID: -2934938761657828720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_44
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 3158
+        width: 677
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 584572e88844e80d0800000000000000
+      internalID: -3418719713836444539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_45
+      rect:
+        serializedVersion: 2
+        x: 1972
+        y: 3168
+        width: 214
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5023a3977b91720800000000000000
+      internalID: 2817484773192238589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_46
+      rect:
+        serializedVersion: 2
+        x: 2210
+        y: 3165
+        width: 272
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a41369a7cc2dbb0800000000000000
+      internalID: -4912639416629900676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_47
+      rect:
+        serializedVersion: 2
+        x: 2706
+        y: 2801
+        width: 1006
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb092e7e7759ab5d0800000000000000
+      internalID: -3045957855738687301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_48
+      rect:
+        serializedVersion: 2
+        x: 3731
+        y: 3082
+        width: 678
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 761b17097e1648320800000000000000
+      internalID: 2559278135441994087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_49
+      rect:
+        serializedVersion: 2
+        x: 4494
+        y: 3088
+        width: 215
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3497c814faa0187c0800000000000000
+      internalID: -4070960840330938045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_50
+      rect:
+        serializedVersion: 2
+        x: 4733
+        y: 3086
+        width: 272
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9025506f21297da0800000000000000
+      internalID: -5946685345602658150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_51
+      rect:
+        serializedVersion: 2
+        x: 5276
+        y: 2801
+        width: 1002
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8a41e58533557c0800000000000000
+      internalID: -4083301032512935759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_52
+      rect:
+        serializedVersion: 2
+        x: 6297
+        y: 3082
+        width: 682
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da025a37f336e2680800000000000000
+      internalID: -8777969499524226899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_53
+      rect:
+        serializedVersion: 2
+        x: 7065
+        y: 3088
+        width: 209
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caadde840dbb46100800000000000000
+      internalID: 100411594960132780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_54
+      rect:
+        serializedVersion: 2
+        x: 7299
+        y: 3086
+        width: 276
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7067d3d17808d90c0800000000000000
+      internalID: -4567353129284307449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_55
+      rect:
+        serializedVersion: 2
+        x: 7642
+        y: 3044
+        width: 395
+        height: 438
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80ffbbc32964da2f0800000000000000
+      internalID: -960033551661924600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_56
+      rect:
+        serializedVersion: 2
+        x: 8142
+        y: 3053
+        width: 310
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c77ba0302ee8830800000000000000
+      internalID: 4075443215509453922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_57
+      rect:
+        serializedVersion: 2
+        x: 9425
+        y: 3029
+        width: 215
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42504ec5589041a0800000000000000
+      internalID: -6827289540793707957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_58
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 2629
+        width: 832
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbc423d5f75e39fb0800000000000000
+      internalID: -4642114455701664581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_59
+      rect:
+        serializedVersion: 2
+        x: 3803
+        y: 2548
+        width: 834
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f73c3a43434ae50800000000000000
+      internalID: 6819633136436215659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_60
+      rect:
+        serializedVersion: 2
+        x: 6373
+        y: 2548
+        width: 835
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca0d4261e91a3c20800000000000000
+      internalID: 3186888142125599431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_61
+      rect:
+        serializedVersion: 2
+        x: 7956
+        y: 2481
+        width: 372
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe32c07479fb27c50800000000000000
+      internalID: 6661597455287329775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_62
+      rect:
+        serializedVersion: 2
+        x: 8457
+        y: 2486
+        width: 372
+        height: 523
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c91a5fc4d4e1d7dd0800000000000000
+      internalID: -2486798101886164580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_63
+      rect:
+        serializedVersion: 2
+        x: 8886
+        y: 2486
+        width: 279
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f244bc85886a2de0800000000000000
+      internalID: -1357157414898220300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_64
+      rect:
+        serializedVersion: 2
+        x: 9206
+        y: 2481
+        width: 310
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a4aacb99dca1dc90800000000000000
+      internalID: -7146741083038636887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_65
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 1871
+        width: 348
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d7846b5c0db8750800000000000000
+      internalID: 6308365250647850242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_66
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 1861
+        width: 339
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5a1f38e04f88d00800000000000000
+      internalID: 975297662506083754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_67
+      rect:
+        serializedVersion: 2
+        x: 1843
+        y: 1800
+        width: 372
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66322d6dcc56248a0800000000000000
+      internalID: -6322378996422925466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_68
+      rect:
+        serializedVersion: 2
+        x: 2306
+        y: 1518
+        width: 345
+        height: 687
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e65608a02dd22390800000000000000
+      internalID: -7844464468598303003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_69
+      rect:
+        serializedVersion: 2
+        x: 2673
+        y: 1515
+        width: 391
+        height: 709
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e684acd9de4e8b0800000000000000
+      internalID: -5123709214081389044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_70
+      rect:
+        serializedVersion: 2
+        x: 3417
+        y: 1885
+        width: 352
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 815626157f4d69220800000000000000
+      internalID: 2492413602483561752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_71
+      rect:
+        serializedVersion: 2
+        x: 3903
+        y: 1876
+        width: 339
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 635d64b2eb8b4e730800000000000000
+      internalID: 4027547093685425462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_72
+      rect:
+        serializedVersion: 2
+        x: 4351
+        y: 1814
+        width: 377
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2769125f8c8e2b7f0800000000000000
+      internalID: -598159850683132302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_73
+      rect:
+        serializedVersion: 2
+        x: 4819
+        y: 1528
+        width: 343
+        height: 691
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d7b4f848c141730800000000000000
+      internalID: 3968828527285599647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_74
+      rect:
+        serializedVersion: 2
+        x: 5186
+        y: 1528
+        width: 386
+        height: 710
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3797bf4fac02d61f0800000000000000
+      internalID: -1050147082041853581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_75
+      rect:
+        serializedVersion: 2
+        x: 5925
+        y: 1752
+        width: 2694
+        height: 857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a830dd0b090f24ff0800000000000000
+      internalID: -53215741341793398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_76
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 1390
+        width: 415
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8678435fd5495e0800000000000000
+      internalID: -1903793434741217026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_77
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 1347
+        width: 353
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91fe8b5e31b879640800000000000000
+      internalID: 5086687221713006361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_78
+      rect:
+        serializedVersion: 2
+        x: 1843
+        y: 1351
+        width: 405
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1527c3ed0af917c60800000000000000
+      internalID: 7814202341736608337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_79
+      rect:
+        serializedVersion: 2
+        x: 2344
+        y: 1070
+        width: 386
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c4cf6980d1c53d90800000000000000
+      internalID: -7118570534586039096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_80
+      rect:
+        serializedVersion: 2
+        x: 2787
+        y: 1061
+        width: 301
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d22eed5e7ff8c1c20800000000000000
+      internalID: 3178573731893010989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_81
+      rect:
+        serializedVersion: 2
+        x: 3412
+        y: 1404
+        width: 415
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae95f2c3821b36c70800000000000000
+      internalID: 8963202469763963370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_82
+      rect:
+        serializedVersion: 2
+        x: 3908
+        y: 1361
+        width: 350
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 816c8bd1624e30150800000000000000
+      internalID: 5837760394360833560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_83
+      rect:
+        serializedVersion: 2
+        x: 4356
+        y: 1361
+        width: 405
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44ecfff9d6b722f90800000000000000
+      internalID: -6979880761704853948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_84
+      rect:
+        serializedVersion: 2
+        x: 4857
+        y: 1084
+        width: 386
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 903dcb760b3c741c0800000000000000
+      internalID: -4519428538620914935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_85
+      rect:
+        serializedVersion: 2
+        x: 5296
+        y: 1075
+        width: 302
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9960e99e76f5ede0800000000000000
+      internalID: -1304365493445957219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_86
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 884
+        width: 372
+        height: 391
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a2dbb24a5f10210800000000000000
+      internalID: 1297588253116672537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_87
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 870
+        width: 396
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28da0e3a1a1d208e0800000000000000
+      internalID: -1728588814787498622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_88
+      rect:
+        serializedVersion: 2
+        x: 1843
+        y: 1080
+        width: 477
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7fa1cae9af1bd230800000000000000
+      internalID: 3664557536444526459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_89
+      rect:
+        serializedVersion: 2
+        x: 3417
+        y: 899
+        width: 376
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c103a44aeb70dda90800000000000000
+      internalID: -7287660106634088420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_90
+      rect:
+        serializedVersion: 2
+        x: 3870
+        y: 880
+        width: 395
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27659137af36320a0800000000000000
+      internalID: -6907567476132194702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_91
+      rect:
+        serializedVersion: 2
+        x: 4351
+        y: 1089
+        width: 477
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b62b3795861a0ff0800000000000000
+      internalID: -69218081247123785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_92
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 450
+        width: 1001
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b649a88a1bc141780800000000000000
+      internalID: -8713307829692623765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_93
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 727
+        width: 681
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1662c8764a7ff2f90800000000000000
+      internalID: -6976085012289673631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_94
+      rect:
+        serializedVersion: 2
+        x: 2563
+        y: 736
+        width: 210
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf8b4c997a74f0a50800000000000000
+      internalID: 6489484373229091068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_95
+      rect:
+        serializedVersion: 2
+        x: 2797
+        y: 732
+        width: 276
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df7cf935e31c0ecf0800000000000000
+      internalID: -224967507933411331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_96
+      rect:
+        serializedVersion: 2
+        x: 3288
+        y: 460
+        width: 1001
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff621f2f0eac3e020800000000000000
+      internalID: 2369960896424388351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_97
+      rect:
+        serializedVersion: 2
+        x: 4308
+        y: 741
+        width: 677
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f9e10e2a9c22f50800000000000000
+      internalID: 6855263284193304365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_98
+      rect:
+        serializedVersion: 2
+        x: 5072
+        y: 746
+        width: 214
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a15aeb016dbb41ee0800000000000000
+      internalID: -1291200665070164710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_99
+      rect:
+        serializedVersion: 2
+        x: 5310
+        y: 746
+        width: 272
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 663cbd256ad22fde0800000000000000
+      internalID: -1300927149978696858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_100
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 198
+        width: 834
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4749aca0fe7dadd00800000000000000
+      internalID: 998347689094190196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Building Colors_101
+      rect:
+        serializedVersion: 2
+        x: 4385
+        y: 207
+        width: 829
+        height: 506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be19ca6d0b4944430800000000000000
+      internalID: 3766298675625365995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

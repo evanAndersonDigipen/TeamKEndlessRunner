@@ -1,0 +1,1268 @@
+fileFormatVersion: 2
+guid: fd42c742f376083478b46cfa54ed6e87
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -727634027289403696
+    second: Game Run Ani Sprite Sheet (1)_0
+  - first:
+      213: 6301171830842863503
+    second: Game Run Ani Sprite Sheet (1)_1
+  - first:
+      213: -7558420364606278712
+    second: Game Run Ani Sprite Sheet (1)_2
+  - first:
+      213: 6013946485513463836
+    second: Game Run Ani Sprite Sheet (1)_3
+  - first:
+      213: 8267139004072726188
+    second: Game Run Ani Sprite Sheet (1)_4
+  - first:
+      213: -5766023951457063020
+    second: Game Run Ani Sprite Sheet (1)_5
+  - first:
+      213: 1086166579491406946
+    second: Game Run Ani Sprite Sheet (1)_6
+  - first:
+      213: 1730411485885874123
+    second: Game Run Ani Sprite Sheet (1)_7
+  - first:
+      213: -7572172016359759366
+    second: Game Run Ani Sprite Sheet (1)_8
+  - first:
+      213: 8404257418382370701
+    second: Game Run Ani Sprite Sheet (1)_9
+  - first:
+      213: 5237371415839228402
+    second: Game Run Ani Sprite Sheet (1)_10
+  - first:
+      213: -6895119666231891106
+    second: Game Run Ani Sprite Sheet (1)_11
+  - first:
+      213: -8210326584689400204
+    second: Game Run Ani Sprite Sheet (1)_12
+  - first:
+      213: 4048722365052511939
+    second: Game Run Ani Sprite Sheet (1)_13
+  - first:
+      213: -6288803472276869296
+    second: Game Run Ani Sprite Sheet (1)_14
+  - first:
+      213: 3929420265952075341
+    second: Game Run Ani Sprite Sheet (1)_15
+  - first:
+      213: 3064052843606600270
+    second: Game Run Ani Sprite Sheet (1)_16
+  - first:
+      213: 5903077292487912062
+    second: Game Run Ani Sprite Sheet (1)_17
+  - first:
+      213: -7614225455065480392
+    second: Game Run Ani Sprite Sheet (1)_18
+  - first:
+      213: 1644506249257962562
+    second: Game Run Ani Sprite Sheet (1)_19
+  - first:
+      213: 5417497892643561732
+    second: Game Run Ani Sprite Sheet (1)_20
+  - first:
+      213: 4788633658296950349
+    second: Game Run Ani Sprite Sheet (1)_21
+  - first:
+      213: -2844546576256450421
+    second: Game Run Ani Sprite Sheet (1)_22
+  - first:
+      213: 7854743319008999126
+    second: Game Run Ani Sprite Sheet (1)_23
+  - first:
+      213: -9145136570259038632
+    second: Game Run Ani Sprite Sheet (1)_24
+  - first:
+      213: 7797063304695179599
+    second: Game Run Ani Sprite Sheet (1)_25
+  - first:
+      213: -6109429663131270307
+    second: Game Run Ani Sprite Sheet (1)_26
+  - first:
+      213: 8371269493991304720
+    second: Game Run Ani Sprite Sheet (1)_27
+  - first:
+      213: -2476755249427026671
+    second: Game Run Ani Sprite Sheet (1)_28
+  - first:
+      213: 8309056460300111262
+    second: Game Run Ani Sprite Sheet (1)_29
+  - first:
+      213: -6406811915056022668
+    second: Game Run Ani Sprite Sheet (1)_30
+  - first:
+      213: 4117898119228123388
+    second: Game Run Ani Sprite Sheet (1)_31
+  - first:
+      213: -5766505207872045174
+    second: Game Run Ani Sprite Sheet (1)_32
+  - first:
+      213: 5055850960459387645
+    second: Game Run Ani Sprite Sheet (1)_33
+  - first:
+      213: 222019338477635779
+    second: Game Run Ani Sprite Sheet (1)_34
+  - first:
+      213: 1598014414878274608
+    second: Game Run Ani Sprite Sheet (1)_35
+  - first:
+      213: 420208533206444740
+    second: Game Run Ani Sprite Sheet (1)_36
+  - first:
+      213: -8970750189770850269
+    second: Game Run Ani Sprite Sheet (1)_37
+  - first:
+      213: 4005865985289339253
+    second: Game Run Ani Sprite Sheet (1)_38
+  - first:
+      213: -2504431850428844634
+    second: Game Run Ani Sprite Sheet (1)_39
+  - first:
+      213: 777173096056154842
+    second: Game Run Ani Sprite Sheet (1)_40
+  - first:
+      213: 4414183575912883999
+    second: Game Run Ani Sprite Sheet (1)_41
+  - first:
+      213: -535330291247652144
+    second: Game Run Ani Sprite Sheet (1)_42
+  - first:
+      213: 6479136311493650210
+    second: Game Run Ani Sprite Sheet (1)_43
+  - first:
+      213: 3256158164243802409
+    second: Game Run Ani Sprite Sheet (1)_44
+  - first:
+      213: -4167173983296170018
+    second: Game Run Ani Sprite Sheet (1)_45
+  - first:
+      213: -6295345739962204093
+    second: Game Run Ani Sprite Sheet (1)_46
+  - first:
+      213: 5213690949634321058
+    second: Game Run Ani Sprite Sheet (1)_47
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 500
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Game Run Ani Sprite Sheet (1)_0
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 10901
+        width: 527
+        height: 1037
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de9de415bce6e5f0800000000000000
+      internalID: -727634027289403696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Run Ani Sprite Sheet (1)_1
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 10901
+        width: 527
+        height: 1037
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f26162562427750800000000000000
+      internalID: 6301171830842863503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Run Ani Sprite Sheet (1)_2
+      rect:
+        serializedVersion: 2
+        x: 2745
+        y: 10901
+        width: 527
+        height: 1037
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c3709089b81b1790800000000000000
+      internalID: -7558420364606278712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Run Ani Sprite Sheet (1)_3
+      rect:
+        serializedVersion: 2
+        x: 3941
+        y: 10901
+        width: 532
+        height: 1037
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c182d3f1774d57350800000000000000
+      internalID: 6013946485513463836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Run Ani Sprite Sheet (1)_4
+      rect:
+        serializedVersion: 2
+        x: 5142
+        y: 10901
+        width: 532
+        height: 1037
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cae088e7f17cab270800000000000000
+      internalID: 8267139004072726188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Run Ani Sprite Sheet (1)_5
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 9700
+        width: 527
+        height: 1037
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49fe10f04c7faffa0800000000000000
+      internalID: -5766023951457063020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Run Ani Sprite Sheet (1)_6
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 9700
+        width: 527
+        height: 1037
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2648c71dfb6d21f00800000000000000
+      internalID: 1086166579491406946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Run Ani Sprite Sheet (1)_7
+      rect:
+        serializedVersion: 2
+        x: 2745
+        y: 9700
+        width: 527
+        height: 1037
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcfbb7b0418a30810800000000000000
+      internalID: 1730411485885874123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Run Ani Sprite Sheet (1)_8
+      rect:
+        serializedVersion: 2
+        x: 3941
+        y: 9700
+        width: 532
+        height: 1037
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af129b29bad3ae690800000000000000
+      internalID: -7572172016359759366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Run Ani Sprite Sheet (1)_9
+      rect:
+        serializedVersion: 2
+        x: 5142
+        y: 9700
+        width: 532
+        height: 1037
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d876f97289be1a470800000000000000
+      internalID: 8404257418382370701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Run Ani Sprite Sheet (1)_10
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 8499
+        width: 527
+        height: 1037
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1c1edcd81eea840800000000000000
+      internalID: 5237371415839228402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Run Ani Sprite Sheet (1)_11
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 8499
+        width: 527
+        height: 1037
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5b207a023d9f40a0800000000000000
+      internalID: -6895119666231891106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Run Ani Sprite Sheet (1)_12
+      rect:
+        serializedVersion: 2
+        x: 2745
+        y: 8499
+        width: 527
+        height: 1037
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47664ada87f0f0e80800000000000000
+      internalID: -8210326584689400204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Run Ani Sprite Sheet (1)_13
+      rect:
+        serializedVersion: 2
+        x: 3941
+        y: 8499
+        width: 532
+        height: 1037
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6622b3a83ff2830800000000000000
+      internalID: 4048722365052511939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Run Ani Sprite Sheet (1)_14
+      rect:
+        serializedVersion: 2
+        x: 5142
+        y: 8499
+        width: 532
+        height: 1037
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05fa1bcbf8ea9b8a0800000000000000
+      internalID: -6288803472276869296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Run Ani Sprite Sheet (1)_15
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 7304
+        width: 527
+        height: 1031
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e5b45b9ea188630800000000000000
+      internalID: 3929420265952075341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Run Ani Sprite Sheet (1)_16
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 7304
+        width: 527
+        height: 1031
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a6234c3d3b58a20800000000000000
+      internalID: 3064052843606600270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Run Ani Sprite Sheet (1)_17
+      rect:
+        serializedVersion: 2
+        x: 2745
+        y: 7304
+        width: 527
+        height: 990
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7aaa6c8581fbe150800000000000000
+      internalID: 5903077292487912062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Run Ani Sprite Sheet (1)_18
+      rect:
+        serializedVersion: 2
+        x: 3941
+        y: 7304
+        width: 532
+        height: 990
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 833c51f5a46d45690800000000000000
+      internalID: -7614225455065480392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Run Ani Sprite Sheet (1)_19
+      rect:
+        serializedVersion: 2
+        x: 5118
+        y: 7257
+        width: 568
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c4ee188b572d610800000000000000
+      internalID: 1644506249257962562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Run Ani Sprite Sheet (1)_20
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 6057
+        width: 574
+        height: 1001
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 401627651a1de2b40800000000000000
+      internalID: 5417497892643561732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Run Ani Sprite Sheet (1)_21
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 6103
+        width: 639
+        height: 1007
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ed442e0f4a47240800000000000000
+      internalID: 4788633658296950349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Run Ani Sprite Sheet (1)_22
+      rect:
+        serializedVersion: 2
+        x: 2687
+        y: 6103
+        width: 638
+        height: 1007
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b804e2fb5f32688d0800000000000000
+      internalID: -2844546576256450421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Run Ani Sprite Sheet (1)_23
+      rect:
+        serializedVersion: 2
+        x: 3876
+        y: 6103
+        width: 603
+        height: 1066
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d67763be67a10d60800000000000000
+      internalID: 7854743319008999126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Run Ani Sprite Sheet (1)_24
+      rect:
+        serializedVersion: 2
+        x: 5077
+        y: 6103
+        width: 604
+        height: 1066
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85e964b0eb2f51180800000000000000
+      internalID: -9145136570259038632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Run Ani Sprite Sheet (1)_25
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 4901
+        width: 604
+        height: 1067
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f49e697d3cbb43c60800000000000000
+      internalID: 7797063304695179599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Run Ani Sprite Sheet (1)_26
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 4901
+        width: 545
+        height: 1026
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5383dc2712f63ba0800000000000000
+      internalID: -6109429663131270307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Run Ani Sprite Sheet (1)_27
+      rect:
+        serializedVersion: 2
+        x: 2728
+        y: 4901
+        width: 550
+        height: 1026
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e6a6c7049bc2470800000000000000
+      internalID: 8371269493991304720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Run Ani Sprite Sheet (1)_28
+      rect:
+        serializedVersion: 2
+        x: 3941
+        y: 4901
+        width: 532
+        height: 1020
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d615a193cc0add0800000000000000
+      internalID: -2476755249427026671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Run Ani Sprite Sheet (1)_29
+      rect:
+        serializedVersion: 2
+        x: 5142
+        y: 4901
+        width: 532
+        height: 1020
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d4adec3d2bf4370800000000000000
+      internalID: 8309056460300111262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Run Ani Sprite Sheet (1)_30
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 3700
+        width: 527
+        height: 1037
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b785c028e6617a0800000000000000
+      internalID: -6406811915056022668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Run Ani Sprite Sheet (1)_31
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 3700
+        width: 527
+        height: 1037
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf867d99586b52930800000000000000
+      internalID: 4117898119228123388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Run Ani Sprite Sheet (1)_32
+      rect:
+        serializedVersion: 2
+        x: 2745
+        y: 3700
+        width: 527
+        height: 1037
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8fb851d01249ffa0800000000000000
+      internalID: -5766505207872045174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Run Ani Sprite Sheet (1)_33
+      rect:
+        serializedVersion: 2
+        x: 3941
+        y: 3700
+        width: 532
+        height: 1037
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df2df7759adf92640800000000000000
+      internalID: 5055850960459387645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Run Ani Sprite Sheet (1)_34
+      rect:
+        serializedVersion: 2
+        x: 5142
+        y: 3700
+        width: 532
+        height: 1037
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c80a3b7965c41300800000000000000
+      internalID: 222019338477635779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Run Ani Sprite Sheet (1)_35
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 2499
+        width: 527
+        height: 1037
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034f5c8c4a94d2610800000000000000
+      internalID: 1598014414878274608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Run Ani Sprite Sheet (1)_36
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 2499
+        width: 527
+        height: 1037
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4caab514f61e4d500800000000000000
+      internalID: 420208533206444740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Run Ani Sprite Sheet (1)_37
+      rect:
+        serializedVersion: 2
+        x: 2745
+        y: 2499
+        width: 527
+        height: 1037
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 320c0f14b3e718380800000000000000
+      internalID: -8970750189770850269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Run Ani Sprite Sheet (1)_38
+      rect:
+        serializedVersion: 2
+        x: 3941
+        y: 2499
+        width: 532
+        height: 1037
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571cdfeb3e1b79730800000000000000
+      internalID: 4005865985289339253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Run Ani Sprite Sheet (1)_39
+      rect:
+        serializedVersion: 2
+        x: 5142
+        y: 2499
+        width: 532
+        height: 1037
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a5b30740887e3dd0800000000000000
+      internalID: -2504431850428844634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Run Ani Sprite Sheet (1)_40
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1304
+        width: 527
+        height: 1031
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adaea6f20d219ca00800000000000000
+      internalID: 777173096056154842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Run Ani Sprite Sheet (1)_41
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 1304
+        width: 527
+        height: 1031
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f17a6af2394524d30800000000000000
+      internalID: 4414183575912883999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Run Ani Sprite Sheet (1)_42
+      rect:
+        serializedVersion: 2
+        x: 2745
+        y: 1304
+        width: 527
+        height: 1031
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d26da8bfef1298f0800000000000000
+      internalID: -535330291247652144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Run Ani Sprite Sheet (1)_43
+      rect:
+        serializedVersion: 2
+        x: 3941
+        y: 1304
+        width: 532
+        height: 1031
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 227e9e9b5248ae950800000000000000
+      internalID: 6479136311493650210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Run Ani Sprite Sheet (1)_44
+      rect:
+        serializedVersion: 2
+        x: 5142
+        y: 1304
+        width: 532
+        height: 1031
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9296d383992303d20800000000000000
+      internalID: 3256158164243802409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Run Ani Sprite Sheet (1)_45
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 103
+        width: 527
+        height: 1036
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed7d16047593b26c0800000000000000
+      internalID: -4167173983296170018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Run Ani Sprite Sheet (1)_46
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 103
+        width: 527
+        height: 1036
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 340c847576072a8a0800000000000000
+      internalID: -6295345739962204093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Run Ani Sprite Sheet (1)_47
+      rect:
+        serializedVersion: 2
+        x: 2745
+        y: 103
+        width: 527
+        height: 1036
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa6f9d9b40ca5840800000000000000
+      internalID: 5213690949634321058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
