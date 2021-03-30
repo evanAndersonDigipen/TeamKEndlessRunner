@@ -29,13 +29,25 @@ public class MenuButton : MonoBehaviour
     // Options for what to do when button is clicked
     public ButtonFunctions buttonFunction;
 
+    //This Is used to Transfer to a spesific Level.
+    public string LevelName;
+
+    bool TutorialFinish = false;
+
     // Function to call when button is clicked
     private delegate void ButtonAction();
     private ButtonAction buttonAction;
 
+
     // Start is called before the first frame update
     void Start()
     {
+        if(PlayerPrefs.GetInt("TutorialFinish") != null)
+        {
+            TutorialFinish = false;
+            PlayerPrefs.SetInt("TutorialFinish", 0);
+            PlayerPrefs.Save();
+        }
         buttonAction = null;
 
         switch(buttonFunction)
@@ -62,7 +74,8 @@ public class MenuButton : MonoBehaviour
 
     private void Play()
     {
-        SceneManager.LoadScene("GameLevel");
+        
+        SceneManager.LoadScene(LevelName);
     }
 
     private void Exit()
