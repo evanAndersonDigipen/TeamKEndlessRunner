@@ -228,6 +228,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonFunction: 0
+  LevelName: MainLevel
 --- !u!114 &304036416
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -372,6 +373,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonFunction: 1
+  LevelName: 
 --- !u!114 &445252506
 MonoBehaviour:
   m_ObjectHideFlags: 0
