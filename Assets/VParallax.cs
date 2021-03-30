@@ -12,6 +12,7 @@ public class VParallax : MonoBehaviour
 
 
     public static GameObject nextPanel;
+    float playerPosOld = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,7 +23,16 @@ public class VParallax : MonoBehaviour
     void Update()
     {
         Vector3 skylinesPos = Skylines.transform.position;
-        skylinesPos.y = Mathf.Clamp(Vector3.Lerp(skylinesPos, new Vector3(skylinesPos.x, skylinesPos.y + (magnitude * -player.transform.position.y)), speed).y, float.MinValue, Camera.main.transform.position.y - Camera.main.orthographicSize);
+        skylinesPos.y = Mathf.Clamp(Vector3.Lerp(skylinesPos, new Vector3(skylinesPos.x, skylinesPos.y + (magnitude * (playerPosOld-player.transform.position.y))), speed).y, float.MinValue, Camera.main.transform.position.y - Camera.main.orthographicSize);
         Skylines.transform.position = skylinesPos;
+    }
+
+    IEnumerator playerPosUpdater()
+    {
+        while (true)
+        {
+            playerPosOld = player.transform.position.y;
+            yield return new WaitForSeconds(1);
+        }
     }
 }

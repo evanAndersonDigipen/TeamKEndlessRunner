@@ -25,18 +25,19 @@ public class ScrollHorizontal : MonoBehaviour
     public float randomBumpY = 0;
 
     public GameObject secondPlatform;
-    public float secondBumpX;
-    public float secondBumpY;
+    public Collider2D secondPlatformCol;
     //56
+    public GameObject[] prefabs;
+
 
     private void Start()
     {
-        secondBumpX = secondPlatform.GetComponent<ScrollHorizontal>().randomBumpX;
+        
     }
     // Update is called once per frame
     void Update()
     {
-        secondBumpX = secondPlatform.GetComponent<ScrollHorizontal>().randomBumpX;
+        secondPlatformCol = secondPlatform.GetComponent<Collider2D>();
 
         if(transform.position.y < secondPlatform.transform.position.y)
         {
@@ -64,7 +65,7 @@ public class ScrollHorizontal : MonoBehaviour
         {
             if (transform.position.x <= WrapZoneLeft)
             {
-                position.x = secondPlatform.transform.position.x+37.5f+ Random.Range(3.0f, 10.0f); //WrapZoneRight +randomBumpX;
+                position.x = secondPlatform.transform.position.x+(secondPlatformCol.bounds.size.x/2)+ Random.Range(3.0f, 10.0f); //WrapZoneRight +randomBumpX;
                 position.y = secondPlatform.transform.position.y + Random.Range(-10, 7f);
 
                
