@@ -30,7 +30,8 @@ public class MenuButton : MonoBehaviour
     public ButtonFunctions buttonFunction;
 
     //This Is used to Transfer to a spesific Level.
-    public string LevelName;
+    public string TutorialName;
+    //string GameLevel = "GameLevel";
 
     bool TutorialFinish = false;
 
@@ -42,12 +43,20 @@ public class MenuButton : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if(PlayerPrefs.GetInt("TutorialFinish") != null)
+
+        if (PlayerPrefs.GetInt("TutorialFinish") == 0)
         {
             TutorialFinish = false;
-            PlayerPrefs.SetInt("TutorialFinish", 0);
-            PlayerPrefs.Save();
         }
+        else if(PlayerPrefs.GetInt("TutorialFinish") == 1)
+        {
+            TutorialFinish = true;
+        }
+        else
+        {
+            TutorialFinish = false;
+        }
+
         buttonAction = null;
 
         switch(buttonFunction)
@@ -74,8 +83,17 @@ public class MenuButton : MonoBehaviour
 
     private void Play()
     {
+        if (TutorialFinish)
+        {
+            SceneManager.LoadScene("GameLevel");
+        }
+        else
+        {
+            PlayerPrefs.SetInt("TutorialFinish", 1);
+            SceneManager.LoadScene(TutorialName);
+            PlayerPrefs.Save();
+        }
         
-        SceneManager.LoadScene(LevelName);
     }
 
     private void Exit()
