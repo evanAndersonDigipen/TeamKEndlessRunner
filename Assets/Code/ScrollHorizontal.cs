@@ -95,17 +95,20 @@ public class ScrollHorizontal : MonoBehaviour
         // Set new position
         transform.position = position;
     }
-    private void OnCollisionStay2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.name == "Player")
+        if(collision.gameObject.name == "Side Collider")
         {
+            Debug.Log("yeet");
             MoveSpeed = 0;
         }
-        
     }
-    private void OnCollisionExit2D(Collision2D collision)
+    private void OnTriggerExit2D(Collider2D collision)
     {
-        
+        if (collision.gameObject.name == "Side Collider")
+        {
+            MoveSpeed = BasicMoveSpeed;
+        }
     }
     private void OnDrawGizmos()
     {
