@@ -48,8 +48,7 @@ public class FootstepSounds : MonoBehaviour
         int randomClipIndex = Random.Range(0, numClips);
 
         // Play clip!
-        audioSource.clip = audioClips[randomClipIndex];
-        audioSource.Play();
+        audioSource.PlayOneShot(audioClips[randomClipIndex]);
 
         // Reset timer
         timer = 0.0f;

@@ -155,6 +155,9 @@ MonoBehaviour:
   JumpKey: 32
   SlideKey: 304
   KillPlane: -20
+  source: {fileID: 5702680125714932156}
+  jump: {fileID: 8300000, guid: e946bbf929b76c741a1cc393e5874625, type: 3}
+  run: {fileID: 8300000, guid: 857991981c648af429812d9ab3dcdc67, type: 3}
 --- !u!95 &22022183816750200
 Animator:
   serializedVersion: 3
@@ -300,4 +303,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TimeBetweenSteps: 0.33
   audioClips:
-  - {fileID: 8300000, guid: 903f48b2bd555ce4891f11725e8d33a8, type: 3}
+  - {fileID: 8300000, guid: 18a114091dccc904889e221a175ca576, type: 3}

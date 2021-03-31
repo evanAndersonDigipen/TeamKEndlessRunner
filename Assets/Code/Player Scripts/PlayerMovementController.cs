@@ -35,6 +35,7 @@ public class PlayerMovementController : MonoBehaviour
     private GameObject distanceObj = null;
     private float startingX = 0;
     bool IsGrounded = false;
+
     private PlayerAnimationManager animationManager;
 
     public AudioSource source;
@@ -72,7 +73,15 @@ public class PlayerMovementController : MonoBehaviour
         bool grounded = IsGrounded;
         if (grounded)
         {
+            source.clip = run;
+            source.loop = true;
+            source.Play();
+            
             KillPlane = transform.position.y - 50;
+        }
+        else
+        {
+            source.Stop();
         }
 
         if(transform.position.y <= KillPlane)
@@ -87,6 +96,7 @@ public class PlayerMovementController : MonoBehaviour
                 animationManager.SwitchTo(PlayerAnimationStates.Jump);
                 var jump_vec = new Vector3(0,JumpHeight,0);
                 gameObject.GetComponent<Rigidbody2D>().velocity = jump_vec;
+                source.PlayOneShot(jump);
                 jumpsRemaining -= 1;
                 
             }
