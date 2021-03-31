@@ -20,6 +20,7 @@ public class ScrollHorizontal : MonoBehaviour
     public float MoveSpeed = 10.0f;
     [HideInInspector]
     public float BasicMoveSpeed = 10.0f;
+    public static float ActiveMoveSpeed;
     public float WrapZoneLeft = -18.0f;
     public float WrapZoneRight = 56.0f;
     
@@ -34,6 +35,7 @@ public class ScrollHorizontal : MonoBehaviour
 
     private void Start()
     {
+        ActiveMoveSpeed = MoveSpeed;
         BasicMoveSpeed = MoveSpeed;
 
         Instantiate(prefabs[Random.Range(0, prefabs.Length)], transform);
@@ -88,11 +90,11 @@ public class ScrollHorizontal : MonoBehaviour
         // Move
         if(FlipDirection)
         {
-            position.x += MoveSpeed * Time.deltaTime;
+            position.x += ActiveMoveSpeed * Time.deltaTime;
         }
         else
         {
-            position.x -= MoveSpeed * Time.deltaTime;
+            position.x -= ActiveMoveSpeed * Time.deltaTime;
         }
 
         // Set new position

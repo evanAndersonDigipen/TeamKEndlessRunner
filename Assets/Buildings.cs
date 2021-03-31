@@ -21,14 +21,16 @@ public class Buildings : MonoBehaviour
         if (collision.gameObject.name == "Side Collider")
         {
             Debug.Log("yeet");
-            ScrollHorizontal.MoveSpeed = 0;
+            ScrollHorizontal.BasicMoveSpeed = ScrollHorizontal.ActiveMoveSpeed;
+            ScrollHorizontal.ActiveMoveSpeed = 0;
+            
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.gameObject.name == "Side Collider")
         {
-            ScrollHorizontal.MoveSpeed = ScrollHorizontal.BasicMoveSpeed;
+            ScrollHorizontal.ActiveMoveSpeed = ScrollHorizontal.BasicMoveSpeed;
         }
     }
 }
