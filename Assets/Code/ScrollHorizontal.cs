@@ -18,7 +18,8 @@ public class ScrollHorizontal : MonoBehaviour
 {
     public bool FlipDirection = false;
     public float MoveSpeed = 10.0f;
-    float BasicMoveSpeed = 10.0f;
+    [HideInInspector]
+    public float BasicMoveSpeed = 10.0f;
     public float WrapZoneLeft = -18.0f;
     public float WrapZoneRight = 56.0f;
     
@@ -33,6 +34,8 @@ public class ScrollHorizontal : MonoBehaviour
 
     private void Start()
     {
+        BasicMoveSpeed = MoveSpeed;
+
         Instantiate(prefabs[Random.Range(0, prefabs.Length)], transform);
         transform.GetChild(0).localPosition = new Vector3(0, 0 - transform.GetChild(0).GetComponent<Collider2D>().bounds.size.y);
     }
@@ -95,21 +98,7 @@ public class ScrollHorizontal : MonoBehaviour
         // Set new position
         transform.position = position;
     }
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if(collision.gameObject.name == "Side Collider")
-        {
-            Debug.Log("yeet");
-            MoveSpeed = 0;
-        }
-    }
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.gameObject.name == "Side Collider")
-        {
-            MoveSpeed = BasicMoveSpeed;
-        }
-    }
+    
     private void OnDrawGizmos()
     {
         Vector3 Size = new Vector3(1, 1);
