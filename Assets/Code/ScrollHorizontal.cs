@@ -31,13 +31,14 @@ public class ScrollHorizontal : MonoBehaviour
     public Collider2D secondPlatformCol;
     //56
     public GameObject[] prefabs;
+    public GameObject arrow;
 
 
     private void Start()
     {
         ActiveMoveSpeed = MoveSpeed;
         BasicMoveSpeed = MoveSpeed;
-
+        
         Instantiate(prefabs[Random.Range(0, prefabs.Length)], transform);
         transform.GetChild(0).localPosition = new Vector3(0, 0 - transform.GetChild(0).GetComponent<Collider2D>().bounds.size.y);
     }
@@ -73,7 +74,7 @@ public class ScrollHorizontal : MonoBehaviour
             if (transform.position.x <= WrapZoneLeft)
             {
                 position.x = secondPlatform.transform.position.x+(secondPlatformCol.bounds.size.x)+ Random.Range(3.0f, 10.0f); //WrapZoneRight +randomBumpX;
-                position.y = secondPlatform.transform.position.y-(secondPlatformCol.bounds.size.y/2) + Random.Range(-5, 10f);
+                position.y = secondPlatform.transform.position.y-(secondPlatformCol.bounds.size.y/2) + Random.Range(-2, 10f);
                 Destroy(transform.GetChild(0).gameObject);
                 Instantiate(prefabs[Random.Range(0, prefabs.Length)], transform);
 
@@ -96,7 +97,14 @@ public class ScrollHorizontal : MonoBehaviour
         {
             position.x -= ActiveMoveSpeed * Time.deltaTime;
         }
-
+        if(position.y < Camera.main.transform.position.y - Camera.main.orthographicSize)
+        {
+            arrow.SetActive(true);
+        }
+        else
+        {
+            arrow.SetActive(false);
+        }
         // Set new position
         transform.position = position;
     }
