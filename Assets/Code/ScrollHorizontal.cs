@@ -18,6 +18,7 @@ public class ScrollHorizontal : MonoBehaviour
 {
     public bool FlipDirection = false;
     public float MoveSpeed = 10.0f;
+    float BasicMoveSpeed = 10.0f;
     public float WrapZoneLeft = -18.0f;
     public float WrapZoneRight = 56.0f;
     
@@ -32,12 +33,13 @@ public class ScrollHorizontal : MonoBehaviour
 
     private void Start()
     {
-        
+        Instantiate(prefabs[Random.Range(0, prefabs.Length)], transform);
+        transform.GetChild(0).localPosition = new Vector3(0, 0 - transform.GetChild(0).GetComponent<Collider2D>().bounds.size.y);
     }
     // Update is called once per frame
     void Update()
     {
-        secondPlatformCol = secondPlatform.GetComponent<Collider2D>();
+        secondPlatformCol = secondPlatform.transform.GetChild(0).GetComponent<Collider2D>();
 
         if(transform.position.y < secondPlatform.transform.position.y)
         {
@@ -65,10 +67,12 @@ public class ScrollHorizontal : MonoBehaviour
         {
             if (transform.position.x <= WrapZoneLeft)
             {
-                position.x = secondPlatform.transform.position.x+(secondPlatformCol.bounds.size.x/2)+ Random.Range(3.0f, 10.0f); //WrapZoneRight +randomBumpX;
-                position.y = secondPlatform.transform.position.y + Random.Range(-10, 7f);
+                position.x = secondPlatform.transform.position.x+(secondPlatformCol.bounds.size.x)+ Random.Range(3.0f, 10.0f); //WrapZoneRight +randomBumpX;
+                position.y = secondPlatform.transform.position.y-(secondPlatformCol.bounds.size.y/2) + Random.Range(-5, 10f);
+                Destroy(transform.GetChild(0).gameObject);
+                Instantiate(prefabs[Random.Range(0, prefabs.Length)], transform);
 
-               
+                transform.GetChild(0).localPosition = new Vector3(0, 0-transform.GetChild(0).GetComponent<Collider2D>().bounds.size.y);
 
                 randomBumpX = secondPlatform.transform.position.x + Random.Range(3, 15);
                 
@@ -91,8 +95,25 @@ public class ScrollHorizontal : MonoBehaviour
         // Set new position
         transform.position = position;
     }
-    private void OnCollisionEnter(Collision collision)
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        if(collision.gameObject.name == "Player")
+        {
+            MoveSpeed = 0;
+        }
+        
+    }
+    private void OnCollisionExit2D(Collision2D collision)
     {
         
     }
+    private void OnDrawGizmos()
+    {
+        Vector3 Size = new Vector3(1, 1);
+        Gizmos.color = Color.red;
+        Gizmos.DrawCube(transform.position, Size);
+        Gizmos.color = Color.blue;
+        Gizmos.DrawCube(new Vector3(WrapZoneLeft, 0), Size);
+    }
+
 }
