@@ -34,6 +34,7 @@ public class PlayerMovementController : MonoBehaviour
     private GameObject healthBarObj = null;
     private GameObject distanceObj = null;
     private float startingX = 0;
+    bool IsGrounded = false;
     private PlayerAnimationManager animationManager;
 
     public AudioSource source;
@@ -68,7 +69,7 @@ public class PlayerMovementController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        bool grounded = IsGrounded();
+        bool grounded = IsGrounded;
         if (grounded)
         {
             KillPlane = transform.position.y - 50;
@@ -152,12 +153,19 @@ public class PlayerMovementController : MonoBehaviour
         // Hit the floor
         if (collision.collider.gameObject.CompareTag("Floor"))
         {
+            IsGrounded = true;
             jumpsRemaining = MaxNumberOfJumps;
-        } 
+        }
+        
+    }
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.collider.gameObject.CompareTag("Floor"))
+        {
+            IsGrounded = false;
+            
+        }
     }
 
-    public bool IsGrounded()
-    {
-        return jumpsRemaining == MaxNumberOfJumps;
-    }
+
 }
