@@ -127,7 +127,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.3175, y: 2.5925002}
+    oldSize: {x: 1.0539999, y: 2.074}
     newSize: {x: 0.64, y: 0.64}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -301,8 +301,3 @@ MonoBehaviour:
   TimeBetweenSteps: 0.33
   audioClips:
   - {fileID: 8300000, guid: 903f48b2bd555ce4891f11725e8d33a8, type: 3}
-  - {fileID: 8300000, guid: e22c1c90a49244d4daa6dc82b1a8a843, type: 3}
-  - {fileID: 8300000, guid: a8bf33d78bbe93a40949bedc4a027fa9, type: 3}
-  - {fileID: 8300000, guid: b43da57625ab8c647b430ec1b5783765, type: 3}
-  - {fileID: 8300000, guid: e0f551d245e699f428cf80d4e476beb9, type: 3}
-  - {fileID: 8300000, guid: 67b4dfc346b14e94baa5285687b7698f, type: 3}

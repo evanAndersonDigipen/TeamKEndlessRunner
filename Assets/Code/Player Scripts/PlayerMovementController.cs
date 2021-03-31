@@ -36,9 +36,15 @@ public class PlayerMovementController : MonoBehaviour
     private float startingX = 0;
     private PlayerAnimationManager animationManager;
 
+    public AudioSource source;
+    public AudioClip jump;
+    public AudioClip run;
+
+
     // Start is called before the first frame update
     void Start()
     {
+        source = gameObject.GetComponent<AudioSource>();
         healthBarObj = GameObject.Find(nameOfHealthDisplayObject);
         distanceObj = GameObject.Find(nameOfDistanceLabelObject);
         animationManager = GetComponent<PlayerAnimationManager>();
@@ -81,6 +87,7 @@ public class PlayerMovementController : MonoBehaviour
                 var jump_vec = new Vector3(0,JumpHeight,0);
                 gameObject.GetComponent<Rigidbody2D>().velocity = jump_vec;
                 jumpsRemaining -= 1;
+                
             }
         }
         // Sliding
