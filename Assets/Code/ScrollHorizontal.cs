@@ -74,7 +74,7 @@ public class ScrollHorizontal : MonoBehaviour
             if (transform.position.x <= WrapZoneLeft)
             {
                 position.x = secondPlatform.transform.position.x+(secondPlatformCol.bounds.size.x)+ Random.Range(3.0f, 10.0f); //WrapZoneRight +randomBumpX;
-                position.y = secondPlatform.transform.position.y-(secondPlatformCol.bounds.size.y/2) + Random.Range(-2, 10f);
+                position.y = secondPlatform.transform.position.y-(secondPlatformCol.bounds.size.y/2) + Random.Range(-2, 5f);
                 Destroy(transform.GetChild(0).gameObject);
                 Instantiate(prefabs[Random.Range(0, prefabs.Length)], transform);
 
