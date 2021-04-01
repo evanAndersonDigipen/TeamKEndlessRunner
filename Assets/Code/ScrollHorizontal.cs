@@ -97,14 +97,14 @@ public class ScrollHorizontal : MonoBehaviour
         {
             position.x -= ActiveMoveSpeed * Time.deltaTime;
         }
-        if(position.y < Camera.main.transform.position.y - Camera.main.orthographicSize)
+        /*if(position.y < Camera.main.transform.position.y - Camera.main.orthographicSize)
         {
             arrow.SetActive(true);
         }
         else
         {
             arrow.SetActive(false);
-        }
+        }*/
         // Set new position
         transform.position = position;
     }
