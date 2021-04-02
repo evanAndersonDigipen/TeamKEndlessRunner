@@ -1,7 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/*
+ * Name: Evan Anderson
+ * Date: 4/2/21
+ * Desc: Object lerp following
+ */
 public class CameraFollow : MonoBehaviour
 {
     GameObject Player;
