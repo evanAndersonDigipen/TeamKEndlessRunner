@@ -127,7 +127,7 @@ public class PlayerMovementController : MonoBehaviour
             if (distanceObj.GetComponent<TextMeshProUGUI>() != null)
             {
                 string distText = string.Format("{0,4:F1}", PlayerSaveData.DistanceRun);
-                distanceObj.GetComponent<TextMeshProUGUI>().text = "Distance: " 
+                distanceObj.GetComponent<TextMeshProUGUI>().text = "Score: " 
                     + distText + " m";
             }
         }
