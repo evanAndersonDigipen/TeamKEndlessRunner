@@ -270,6 +270,7 @@ MonoBehaviour:
   BasicMoveSpeed: 10
   WrapZoneLeft: -18
   WrapZoneRight: 56
+  AccellerationAmount: 0.001
   randomBumpX: 0
   randomBumpY: 0
   linkedPlatform: {fileID: 948594118}
@@ -840,6 +841,7 @@ MonoBehaviour:
   BasicMoveSpeed: 10
   WrapZoneLeft: -18
   WrapZoneRight: 56
+  AccellerationAmount: 0.001
   randomBumpX: 0
   randomBumpY: 0
   linkedPlatform: {fileID: 3597888033616618310}
@@ -1535,6 +1537,7 @@ MonoBehaviour:
   BasicMoveSpeed: 10
   WrapZoneLeft: -18
   WrapZoneRight: 56
+  AccellerationAmount: 0.001
   randomBumpX: 0
   randomBumpY: 0
   linkedPlatform: {fileID: 377900400}
@@ -1683,6 +1686,7 @@ MonoBehaviour:
   BasicMoveSpeed: 10
   WrapZoneLeft: -18
   WrapZoneRight: 56
+  AccellerationAmount: 0.001
   randomBumpX: 0
   randomBumpY: 0
   linkedPlatform: {fileID: 553001776}
@@ -1702,6 +1706,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 124334516056862097, guid: 792ad0a553242c04fbf611039a0c82a8,
+        type: 3}
+      propertyPath: Object4Prefab
+      value: 
+      objectReference: {fileID: 5713477468529980678, guid: 0cbfc8ab62411fd4c99ce576cb681118,
+        type: 3}
+    - target: {fileID: 124334516056862097, guid: 792ad0a553242c04fbf611039a0c82a8,
+        type: 3}
+      propertyPath: Object5Prefab
+      value: 
+      objectReference: {fileID: 5713477468529980678, guid: 0cbfc8ab62411fd4c99ce576cb681118,
+        type: 3}
+    - target: {fileID: 124334516056862097, guid: 792ad0a553242c04fbf611039a0c82a8,
+        type: 3}
+      propertyPath: Object6Prefab
+      value: 
+      objectReference: {fileID: 5713477468529980678, guid: 0cbfc8ab62411fd4c99ce576cb681118,
+        type: 3}
+    - target: {fileID: 124334516056862097, guid: 792ad0a553242c04fbf611039a0c82a8,
+        type: 3}
+      propertyPath: SpawnInterval.y
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6508006467729488154, guid: 792ad0a553242c04fbf611039a0c82a8,
         type: 3}
       propertyPath: m_RootOrder
@@ -1765,7 +1792,7 @@ PrefabInstance:
     - target: {fileID: 8622747578261404074, guid: 792ad0a553242c04fbf611039a0c82a8,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 792ad0a553242c04fbf611039a0c82a8, type: 3}
