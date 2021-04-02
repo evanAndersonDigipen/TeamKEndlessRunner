@@ -3,6 +3,7 @@
 // File Name:	PlayerAnimationManager.cs
 // Author(s):	Jeremy Kings (j.kings) - Unity Project
 //              Nathan Mueller - original Zero Engine project
+// Editted by:  Nathan Fallon
 // Project:		Endless Runner
 // Course:		WANIC VGP
 //
