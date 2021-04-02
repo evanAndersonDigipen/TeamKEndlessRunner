@@ -41,24 +41,31 @@ public class ScrollHorizontal : MonoBehaviour
     {
         ActiveMoveSpeed = MoveSpeed;
         BasicMoveSpeed = MoveSpeed;
+        if (!FlipDirection)
+        {
+            Instantiate(prefabs[Random.Range(0, prefabs.Length)], transform);
+            transform.GetChild(0).localPosition = new Vector3(0, 0 - transform.GetChild(0).GetComponent<Collider2D>().bounds.size.y);
+            //secondPlatformCol = linkedPlatform.transform.GetChild(0).GetComponent<Collider2D>();
+            Vector3 position = transform.position;
+            //position.x = secondPlatform.transform.position.x + (secondPlatformCol.bounds.size.x) + Random.Range(5, 20); //WrapZoneRight +randomBumpX;
+            position.y = linkedPlatform.transform.position.y + Random.Range(0, 3);
+            transform.position = position;
+        }
         
-        Instantiate(prefabs[Random.Range(0, prefabs.Length)], transform);
 
         
-        transform.GetChild(0).localPosition = new Vector3(0, 0 - transform.GetChild(0).GetComponent<Collider2D>().bounds.size.y);
-        secondPlatformCol = linkedPlatform.transform.GetChild(0).GetComponent<Collider2D>();
-        Vector3 position = transform.position;
-        //position.x = secondPlatform.transform.position.x + (secondPlatformCol.bounds.size.x) + Random.Range(5, 20); //WrapZoneRight +randomBumpX;
-        position.y = linkedPlatform.transform.position.y + Random.Range(0, 3);
-        transform.position = position;
+        
     }
     // Update is called once per frame
     void Update()
     {
 
 
+        if (!FlipDirection)
+        {
+            secondPlatformCol = linkedPlatform.transform.GetChild(0).GetComponent<Collider2D>();
+        }
         
-        secondPlatformCol = linkedPlatform.transform.GetChild(0).GetComponent<Collider2D>();
 
         if(transform.position.y < linkedPlatform.transform.position.y)
         {
@@ -68,17 +75,27 @@ public class ScrollHorizontal : MonoBehaviour
         {
             VParallax.nextPanel = this.gameObject;
         }
-
+        Vector3 position;
         // Store current position
-        Vector3 position = transform.position;
+        if (!FlipDirection)
+        {
+            position = transform.position;
+        }
+        else
+        {
+            position = transform.localPosition;
+        }
+        
         
 
         // Left --> Right, Reset
         if(FlipDirection)
         {
-            if (transform.position.x >= WrapZoneRight)
+            Debug.Log(transform.position.x - linkedPlatform.transform.position.x);
+            if (transform.position.x <= WrapZoneLeft)
             {
-                position.x = WrapZoneLeft;
+                
+                position.x = linkedPlatform.transform.localPosition.x+41;
             }
         }
         // Left <-- Right, Reset
@@ -108,7 +125,7 @@ public class ScrollHorizontal : MonoBehaviour
         // Move
         if(FlipDirection)
         {
-            position.x += ActiveMoveSpeed * Time.deltaTime;
+            position.x -= ActiveMoveSpeed * Time.deltaTime;
         }
         else
         {
@@ -123,7 +140,15 @@ public class ScrollHorizontal : MonoBehaviour
             arrow.SetActive(false);
         }*/
         // Set new position
-        transform.position = position;
+        if (!FlipDirection)
+        {
+            transform.position = position;
+        }
+        else
+        {
+            transform.localPosition = position;
+        }
+        
     }
     
     private void OnDrawGizmos()
