@@ -24,7 +24,9 @@ public class ScrollHorizontal : MonoBehaviour
     public static float ActiveMoveSpeed;
     public float WrapZoneLeft = -18.0f;
     public float WrapZoneRight = 56.0f;
-    
+
+    public float AccellerationAmount = 0.001f;
+
     public float randomBumpX = 0;
     public float randomBumpY = 0;
 
@@ -145,7 +147,7 @@ public class ScrollHorizontal : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        ActiveMoveSpeed += .001f;
+        ActiveMoveSpeed += AccellerationAmount;
     }
 
 }
