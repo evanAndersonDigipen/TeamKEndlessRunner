@@ -226,7 +226,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 272200694}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 17.545683, y: 12.26704, z: 240.75317}
+  m_LocalPosition: {x: 17.545683, y: 23.9, z: 240.75317}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 768741553}
@@ -272,7 +272,7 @@ MonoBehaviour:
   WrapZoneRight: 56
   randomBumpX: 0
   randomBumpY: 0
-  secondPlatform: {fileID: 948594118}
+  linkedPlatform: {fileID: 0}
   secondPlatformCol: {fileID: 0}
   prefabs:
   - {fileID: 4550879154215602427, guid: 5fe7d446096f9df43b57cf938b840a70, type: 3}
@@ -396,7 +396,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 28.5, y: 8.1, z: -10}
+  m_LocalPosition: {x: 28.5, y: 19.73296, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -842,7 +842,7 @@ MonoBehaviour:
   WrapZoneRight: 56
   randomBumpX: 0
   randomBumpY: 0
-  secondPlatform: {fileID: 3597888033616618310}
+  linkedPlatform: {fileID: 0}
   secondPlatformCol: {fileID: 0}
   prefabs:
   - {fileID: 4550879154215602427, guid: 5fe7d446096f9df43b57cf938b840a70, type: 3}
@@ -860,7 +860,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 948594118}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 58.120003, y: 0, z: 0}
+  m_LocalPosition: {x: 58.2, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1469,7 +1469,7 @@ PrefabInstance:
     - target: {fileID: 5702680126517417177, guid: 44a2f1fd3e785c143ba8383e2edee21b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.8
+      value: 15.43296
       objectReference: {fileID: 0}
     - target: {fileID: 5702680126517417177, guid: 44a2f1fd3e785c143ba8383e2edee21b,
         type: 3}
@@ -1537,7 +1537,7 @@ MonoBehaviour:
   WrapZoneRight: 56
   randomBumpX: 0
   randomBumpY: 0
-  secondPlatform: {fileID: 377900400}
+  linkedPlatform: {fileID: 0}
   secondPlatformCol: {fileID: 0}
   prefabs:
   - {fileID: 4550879154215602427, guid: 5fe7d446096f9df43b57cf938b840a70, type: 3}
@@ -1685,7 +1685,7 @@ MonoBehaviour:
   WrapZoneRight: 56
   randomBumpX: 0
   randomBumpY: 0
-  secondPlatform: {fileID: 553001776}
+  linkedPlatform: {fileID: 0}
   secondPlatformCol: {fileID: 0}
   prefabs:
   - {fileID: 4550879154215602427, guid: 5fe7d446096f9df43b57cf938b840a70, type: 3}
