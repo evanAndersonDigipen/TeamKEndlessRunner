@@ -131,6 +131,7 @@ GameObject:
   m_Component:
   - component: {fileID: 116392178}
   - component: {fileID: 116392179}
+  - component: {fileID: 116392180}
   m_Layer: 0
   m_Name: Skyline
   m_TagString: Untagged
@@ -202,6 +203,30 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &116392180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 116392177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 462dbbb415b18ee4d8fde76c3a955913, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FlipDirection: 1
+  MoveSpeed: 10
+  BasicMoveSpeed: 10
+  WrapZoneLeft: -21
+  WrapZoneRight: 40
+  AccellerationAmount: 0.001
+  randomBumpX: 0
+  randomBumpY: 0
+  linkedPlatform: {fileID: 897022073}
+  secondPlatformCol: {fileID: 0}
+  prefabs: []
+  arrow: {fileID: 0}
 --- !u!1 &272200694
 GameObject:
   m_ObjectHideFlags: 0
@@ -291,7 +316,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 377900400}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 77.600006, y: 0, z: 0}
+  m_LocalPosition: {x: 137, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -736,6 +761,7 @@ GameObject:
   m_Component:
   - component: {fileID: 897022074}
   - component: {fileID: 897022075}
+  - component: {fileID: 897022076}
   m_Layer: 0
   m_Name: Skyline (1)
   m_TagString: Untagged
@@ -807,6 +833,30 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &897022076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897022073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 462dbbb415b18ee4d8fde76c3a955913, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FlipDirection: 1
+  MoveSpeed: 10
+  BasicMoveSpeed: 10
+  WrapZoneLeft: -21
+  WrapZoneRight: 40
+  AccellerationAmount: 0.001
+  randomBumpX: 0
+  randomBumpY: 0
+  linkedPlatform: {fileID: 116392177}
+  secondPlatformCol: {fileID: 0}
+  prefabs: []
+  arrow: {fileID: 0}
 --- !u!1 &948594118
 GameObject:
   m_ObjectHideFlags: 0
@@ -862,7 +912,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 948594118}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 58.2, y: 0, z: 0}
+  m_LocalPosition: {x: 94.7, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1428,7 +1478,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3597888033616618310}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 37.4, y: 0, z: 0}
+  m_LocalPosition: {x: 53.7, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
