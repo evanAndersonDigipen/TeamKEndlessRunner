@@ -192,7 +192,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.31, y: 2.59}
+  m_Size: {x: 1.05, y: 2.03}
   m_EdgeRadius: 0
 --- !u!114 &5702680126517417176
 MonoBehaviour:
@@ -361,4 +361,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TimeBetweenSteps: 0.33
   audioClips:
-  - {fileID: 8300000, guid: 18a114091dccc904889e221a175ca576, type: 3}
+  - {fileID: 8300000, guid: d89a1c79c155147469b8a6097d81987c, type: 3}
