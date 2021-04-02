@@ -12,6 +12,7 @@
 
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using UnityEngine;
 
 public class ScrollHorizontal : MonoBehaviour
@@ -27,7 +28,7 @@ public class ScrollHorizontal : MonoBehaviour
     public float randomBumpX = 0;
     public float randomBumpY = 0;
 
-    public GameObject secondPlatform;
+    public GameObject linkedPlatform;
     public Collider2D secondPlatformCol;
     //56
     public GameObject[] prefabs;
@@ -40,18 +41,28 @@ public class ScrollHorizontal : MonoBehaviour
         BasicMoveSpeed = MoveSpeed;
         
         Instantiate(prefabs[Random.Range(0, prefabs.Length)], transform);
+
+        
         transform.GetChild(0).localPosition = new Vector3(0, 0 - transform.GetChild(0).GetComponent<Collider2D>().bounds.size.y);
+        secondPlatformCol = linkedPlatform.transform.GetChild(0).GetComponent<Collider2D>();
+        Vector3 position = transform.position;
+        //position.x = secondPlatform.transform.position.x + (secondPlatformCol.bounds.size.x) + Random.Range(5, 20); //WrapZoneRight +randomBumpX;
+        position.y = linkedPlatform.transform.position.y + Random.Range(0, 3);
+        transform.position = position;
     }
     // Update is called once per frame
     void Update()
     {
-        secondPlatformCol = secondPlatform.transform.GetChild(0).GetComponent<Collider2D>();
 
-        if(transform.position.y < secondPlatform.transform.position.y)
+
+        
+        secondPlatformCol = linkedPlatform.transform.GetChild(0).GetComponent<Collider2D>();
+
+        if(transform.position.y < linkedPlatform.transform.position.y)
         {
             VParallax.nextPanel = this.gameObject;
         }
-        else if(transform.position.y == secondPlatform.transform.position.y)
+        else if(transform.position.y == linkedPlatform.transform.position.y)
         {
             VParallax.nextPanel = this.gameObject;
         }
@@ -73,14 +84,18 @@ public class ScrollHorizontal : MonoBehaviour
         {
             if (transform.position.x <= WrapZoneLeft)
             {
-                position.x = secondPlatform.transform.position.x+(secondPlatformCol.bounds.size.x)+ Random.Range(3.0f, 10.0f); //WrapZoneRight +randomBumpX;
-                position.y = secondPlatform.transform.position.y-(secondPlatformCol.bounds.size.y/2) + Random.Range(-2, 5f);
-                Destroy(transform.GetChild(0).gameObject);
+                //Destroy(transform.GetChild(0).gameObject);
+                DestroyImmediate(transform.GetChild(0).gameObject);
                 Instantiate(prefabs[Random.Range(0, prefabs.Length)], transform);
+                Task task = asyncBumper();
+                //task.Start();
 
-                transform.GetChild(0).localPosition = new Vector3(0, 0-transform.GetChild(0).GetComponent<Collider2D>().bounds.size.y);
+                transform.GetChild(0).localPosition = new Vector3(0, 0 - transform.GetChild(0).GetComponent<Collider2D>().bounds.size.y);
+                position.x = linkedPlatform.transform.position.x+(secondPlatformCol.bounds.size.x)+ Random.Range(5, 20); //WrapZoneRight +randomBumpX;
+                position.y = linkedPlatform.transform.position.y + Random.Range(0, 10);
+                
 
-                randomBumpX = secondPlatform.transform.position.x + Random.Range(3, 15);
+                randomBumpX = linkedPlatform.transform.position.x + Random.Range(3, 15);
                 
 
                 Random.InitState(System.DateTime.Now.Second);
@@ -116,6 +131,21 @@ public class ScrollHorizontal : MonoBehaviour
         Gizmos.DrawCube(transform.position, Size);
         Gizmos.color = Color.blue;
         Gizmos.DrawCube(new Vector3(WrapZoneLeft, 0), Size);
+    }
+    async Task asyncBumper()
+    {
+        Debug.Log("testing async");
+        await Task.Run(() =>
+        {
+            while(transform.GetChild(0).position.y >= Camera.main.transform.position.y - Camera.main.orthographicSize)
+            {
+                transform.Translate(new Vector3(0, -.1f));
+            }
+        });
+    }
+    private void FixedUpdate()
+    {
+        ActiveMoveSpeed += .001f;
     }
 
 }

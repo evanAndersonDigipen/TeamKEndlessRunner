@@ -77,7 +77,7 @@ public class PlayerMovementController : MonoBehaviour
             source.loop = true;
             source.Play();
             
-            KillPlane = transform.position.y - 50;
+            KillPlane = transform.position.y - 20;
         }
         else
         {
