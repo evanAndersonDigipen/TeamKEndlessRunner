@@ -10,6 +10,12 @@
 //
 //------------------------------------------------------------------------------
 
+
+/*
+ Name: Evan Anderson
+ Date: 4/2/2021
+ Desc: Edited to be compatible with buildings and gaps
+ */
 using System.Collections;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -67,14 +73,7 @@ public class ScrollHorizontal : MonoBehaviour
         }
         
 
-        if(transform.position.y < linkedPlatform.transform.position.y)
-        {
-            VParallax.nextPanel = this.gameObject;
-        }
-        else if(transform.position.y == linkedPlatform.transform.position.y)
-        {
-            VParallax.nextPanel = this.gameObject;
-        }
+        
         Vector3 position;
         // Store current position
         if (!FlipDirection)

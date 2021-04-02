@@ -1,7 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/*
+ * Name: Evan Anderson
+ * Date: 4/2/21
+ * Desc: Stops buildings movement if player hits the side
+ */
 public class Buildings : MonoBehaviour
 {
     // Start is called before the first frame update
