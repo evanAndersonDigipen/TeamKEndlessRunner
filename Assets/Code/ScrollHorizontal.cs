@@ -92,7 +92,7 @@ public class ScrollHorizontal : MonoBehaviour
 
                 transform.GetChild(0).localPosition = new Vector3(0, 0 - transform.GetChild(0).GetComponent<Collider2D>().bounds.size.y);
                 position.x = linkedPlatform.transform.position.x+(secondPlatformCol.bounds.size.x)+ Random.Range(5, 20); //WrapZoneRight +randomBumpX;
-                position.y = linkedPlatform.transform.position.y + Random.Range(0, 10);
+                position.y = linkedPlatform.transform.position.y + Random.Range(-10, 10);
                 
 
                 randomBumpX = linkedPlatform.transform.position.x + Random.Range(3, 15);
