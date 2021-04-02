@@ -272,7 +272,7 @@ MonoBehaviour:
   WrapZoneRight: 56
   randomBumpX: 0
   randomBumpY: 0
-  linkedPlatform: {fileID: 0}
+  linkedPlatform: {fileID: 948594118}
   secondPlatformCol: {fileID: 0}
   prefabs:
   - {fileID: 4550879154215602427, guid: 5fe7d446096f9df43b57cf938b840a70, type: 3}
@@ -842,7 +842,7 @@ MonoBehaviour:
   WrapZoneRight: 56
   randomBumpX: 0
   randomBumpY: 0
-  linkedPlatform: {fileID: 0}
+  linkedPlatform: {fileID: 3597888033616618310}
   secondPlatformCol: {fileID: 0}
   prefabs:
   - {fileID: 4550879154215602427, guid: 5fe7d446096f9df43b57cf938b840a70, type: 3}
@@ -1214,7 +1214,7 @@ Transform:
   m_GameObject: {fileID: 2059762035}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 10.954317, y: -7.22804, z: -59.753174}
-  m_LocalScale: {x: 6.354505, y: 11.056255, z: 4.8076}
+  m_LocalScale: {x: 6.354505, y: 25.84068, z: 4.8076}
   m_Children: []
   m_Father: {fileID: 272200695}
   m_RootOrder: 2
@@ -1537,7 +1537,7 @@ MonoBehaviour:
   WrapZoneRight: 56
   randomBumpX: 0
   randomBumpY: 0
-  linkedPlatform: {fileID: 0}
+  linkedPlatform: {fileID: 377900400}
   secondPlatformCol: {fileID: 0}
   prefabs:
   - {fileID: 4550879154215602427, guid: 5fe7d446096f9df43b57cf938b840a70, type: 3}
@@ -1685,7 +1685,7 @@ MonoBehaviour:
   WrapZoneRight: 56
   randomBumpX: 0
   randomBumpY: 0
-  linkedPlatform: {fileID: 0}
+  linkedPlatform: {fileID: 553001776}
   secondPlatformCol: {fileID: 0}
   prefabs:
   - {fileID: 4550879154215602427, guid: 5fe7d446096f9df43b57cf938b840a70, type: 3}
